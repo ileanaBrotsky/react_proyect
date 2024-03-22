@@ -1,16 +1,16 @@
-
-import Footer from "./Footer.jsx";
-
+import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer";
+import Footer from "./components/layout/footer/Footer";
+import Navbar from "./components/layout/navbar/Navbar";
+import Counter from "./components/common/counter/Counter";
 function App() {
-  let nombre = "Ile";
-   const sumar=()=>{
-    console.log(5+2)
-   }
-  return <div>
-    <h1>Esta es la App de {nombre}</h1>;
-    <button onClick={sumar}>Sumar</button>
-    <Footer/>
+  return (
+    <div>
+      <Navbar/>
+      <ItemListContainer/>
+      <Footer />
+<Counter/>
     </div>
+  );
 }
 
 export default App;
