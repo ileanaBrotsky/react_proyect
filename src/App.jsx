@@ -5,10 +5,7 @@ import Counter from "./components/common/counter/Counter";
 function App() {
   return (
     <div>
-      <Navbar/>
-      <ItemListContainer/>
-      <Footer />
-<Counter/>
+    
     </div>
   );
 }
